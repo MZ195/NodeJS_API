@@ -17,7 +17,7 @@ app.get("/user/:id", (req, res) => {
         connectionLimit: 10,
         host: "localhost",
         user: "root",
-        password: "Almazni2013",
+        password: "",
         database: "Testing"
     })
 
